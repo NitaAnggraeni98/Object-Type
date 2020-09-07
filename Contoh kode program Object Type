@@ -1,0 +1,10 @@
+<?php
+class Hai{
+var $str;
+}
+//membuat objek pesan.Ini disebut instansiasi
+$pesan = new Hai();
+//memberikan nilai untuk properti str dan objek pesan
+$pesan->str="Hello World!";
+echo $pesan->str; //mencetak nilainya (pengolahan data)
+?>
